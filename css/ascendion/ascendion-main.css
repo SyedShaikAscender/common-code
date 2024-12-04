@@ -217,7 +217,135 @@
     --textarea-part-width: 87%;
 }
 
+.bg-dark{
+    background: black !important;
+}
+.main-layout-section .layout-column-left{
+    flex: 1 1 var(--side-navigation-width);
+    max-width: var(--side-navigation-width);
+}
+.main-layout-section .layout-column-right{
+    flex: 1 1 calc(100% - var(--side-navigation-width));
+    max-width: calc(100% - var(--side-navigation-width));
+}
 
+aside{
+    background: black;
+}
+aside.main-aside ul li.level1 a{
+    border-radius: 4px;
+    color: white;
+}
+aside.main-aside ul li.level1.active a{
+    background: white;
+    color: black;
+}
+.text-color-white{
+    color: white;
+}
+.page-title-text{
+    opacity: 1;
+    color: rgba(0, 0, 0, 1);
+    font-family: "Neue Machina";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: Bold;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 20px;
+}
+.company-name{
+    opacity: 1;
+    color: rgba(112, 116, 139, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 18px;
+    display: block;
+}
+.company-location{
+    opacity: 1;
+    color: rgba(112, 116, 139, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 18px;
+    display: block;
+}
+.job-title{
+    border-radius: 12px;
+    opacity: 1;
+    background-color: rgba(255, 245, 217, 1);
+    display: inline-block;
+}
+.job-title_label{
+    opacity: 1;
+    color: rgba(112, 116, 139, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 18px;
+    display: inline;
+}
+.job-title_text{
+    opacity: 1;
+    color: rgba(74, 74, 74, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: Bold;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 18px;
+    display: inline;
+}
+p.regular-text{
+    opacity: 1;
+    color: rgba(74, 74, 74, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+}
+p.regular-text span.subhead{
+        font-family: "Helvetica Neue";
+        font-weight: 700;
+        font-size: 14px;
+        color: #4A4A4A;
+        display: inline-block;
+}
+.regular-text--ul{
+    opacity: 1;
+    color: rgba(74, 74, 74, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+    list-style: none;
+}
+.regular-text--ul li{
+    list-style:circle;
+}
+.regular-text--ul_liheadtext{
+        font-family: "Helvetica Neue";
+        font-weight: 700;
+        font-size: 14px;
+        color: #4A4A4A;
+        display: block;
+}
 /* Info: Report table styles START */
 .report-table thead tr th {
     border-top: solid 1.5px var(--table-head-border-color);
@@ -273,3 +401,4 @@
 }
 
 /* Info: Report table styles END */
+
